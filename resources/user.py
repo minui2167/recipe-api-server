@@ -165,4 +165,4 @@ class UserLogoutResource(Resource):
 
         jwt_blacklist.add(jti)
 
-        return {'result', 'success'}, 200
+        return {'result': 'success'}, 200
